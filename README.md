@@ -12,10 +12,9 @@ This project is a portfolio with repositories of github.
 
 In the project directory, you can run:
 
-### NPM i + NPM START
+### NPM I + NPM START
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### Project with Docker
-    ## docker build -t sample:dev .
-    ## docker run -v ${PWD}:/app -v /app/node_modules -p 3001:3000 --rm sample:dev
+    ## docker-compose up -d
